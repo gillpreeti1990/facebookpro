@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import Facebook from './Pages/Facebook';
+import logo from "./logo.svg";
+import "./App.css";
+import "antd/dist/antd.css";
+// import FacebookClone from './Pages/FacebookClone';
+import Facebook from "./Pages/Facebook";
 
 function App() {
   return (
     <div className="App">
-     <Facebook/>
+      {/* <FacebookClone/> */}
+      <Facebook />
     </div>
   );
 }
